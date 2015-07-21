@@ -31,7 +31,7 @@ describe 'alias_parameter' do
     end
 
     it 'should create warnings' do
-      expect(problems).to contain_warning('alias parameter used').on_line(3).in_column(37)
+      expect(problems).to contain_warning('alias parameter used').on_line(3).in_column(11)
     end
   end
 end
